@@ -154,6 +154,8 @@ html_header = '''
       article {
         width: 41em;
         margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
       }
 
       div.title{
@@ -182,7 +184,7 @@ html_header = '''
         font-weight: bold; 
       }
       div.togaki{
-        text-indent: 1em;
+        text-indent: 0;
       }
       div.character_name{
         margin-top: 0em;
