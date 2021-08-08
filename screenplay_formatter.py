@@ -310,6 +310,9 @@ def preprocessing(lines):
 #docx形式で出力
 def paragraph_writer(text, params):
     paragraph = doc.add_paragraph(text)
+    paragraph.runs[0].font.name = 'MS 明朝'
+
+
     # bold
     if params['bold'] == True:
         paragraph.runs[0].bold = True
