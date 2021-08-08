@@ -9,7 +9,7 @@
 <img width=50% alt="1" src="https://user-images.githubusercontent.com/8622918/128624095-b05adec1-9fad-4e60-bf00-686b0316039e.png">
 
 # Requirement
-
+* python3
 * python-docx
 
 [python-docx](https://python-docx.readthedocs.io/en/latest/)
