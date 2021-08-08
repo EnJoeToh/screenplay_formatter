@@ -239,7 +239,7 @@ def identify(line):
 def file_reader(filename):
     basename, suffix = os.path.splitext(filename)
     if suffix == '.txt':
-        with open(filename) as f:
+        with open(filename, encoding="utf-8") as f:
             lines = f.readlines()
 
     if suffix == '.docx':
@@ -367,5 +367,5 @@ for line in preformatted_lines:
 
 html = html_header + '\n'.join(html_doc) + html_footer
 
-with open(output_filename_html, mode='w') as f:
+with open(output_filename_html, mode='w', encoding="utf-8") as f:
     f.write(html)
