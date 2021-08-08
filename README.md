@@ -23,7 +23,7 @@ pip install python-docx
 - screenplay_formatter と同じフォルダに配置。
 - コマンドラインから、
 ```bash
-python screenplay_formatter filename_text
+python screenplay_formatter filename.txt
 ```
 　　を実行。
 - filename_formatted.html と filename_formatted.docx が同フォルダに生成される。
